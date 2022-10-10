@@ -26,6 +26,10 @@ jobs:
         run: npm i
       - name: Build Project
         run: CI=false npm run build
+      - name: test
+        run: ls
+      - name: test
+        run: pwd
       - name: Upload artifact in order to deploy
         uses: actions/upload-artifact@v2
         with:
