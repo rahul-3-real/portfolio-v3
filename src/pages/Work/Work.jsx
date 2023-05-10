@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { pageAnimation } from "../../animations";
 import WorkSection from "./WorkSection";
+import MiniWorkSection from "./MiniWorkSection";
 
 const Work = () => {
   return (
@@ -12,6 +13,7 @@ const Work = () => {
       animate="show"
     >
       <WorkSection />
+      <MiniWorkSection />
     </motion.div>
   );
 };

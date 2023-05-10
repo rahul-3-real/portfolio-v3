@@ -32,7 +32,7 @@ const Footer = () => {
             <a href="https://github.com/rahul-3-real" target="_blank">
               <FiCodepen />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/rahul-3-real" target="_blank">
               <FiGithub />
             </a>
           </div>

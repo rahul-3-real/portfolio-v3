@@ -33,6 +33,15 @@
   &.justify-end {
     justify-content: flex-end;
   }
+  &.flex-column {
+    flex-direction: column;
+  }
+  &.flex-row {
+    flex-direction: row;
+  }
+  &.flex-row-reverse {
+    flex-direction: row-reverse;
+  }
 }
 
 // Gap
